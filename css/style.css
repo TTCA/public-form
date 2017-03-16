@@ -1,0 +1,46 @@
+#imagePreview {
+    width: 180px;
+    height: 180px;
+    background-image: url('../images/nopicture.jpg');
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+
+.imageform, .submit{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.submit{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.file-field{
+    margin-top: 60px;
+}
+
+.halfhr{
+    max-width: 60%;
+}
+
+.padding-top, .input-field{
+    padding-top: 30px;
+}
+
+.input-field{
+    margin-bottom: 30px !important;
+}
+
+.btn{
+    background-color: #f44336 !important;
+}
+
+.reqstar {
+    margin-left: 10px !important;
+    color: orangered !important;
+}
