@@ -1,3 +1,8 @@
+body{
+    background-color: #f0f4c3;
+    font-family: 'Raleway', sans-serif !important;
+}
+
 #imagePreview {
     width: 180px;
     height: 180px;
@@ -43,4 +48,86 @@
 .reqstar {
     margin-left: 10px !important;
     color: orangered !important;
+}
+
+#ttcalogo{
+    float: left;
+    height: 180px;
+    margin: 20px;
+}
+
+#nitclogo{
+    float: right;
+    height: 180px;
+    margin: 20px;
+}
+
+.question{
+    margin-bottom: 20px !important;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+ /* label focus color */
+.input-field input:focus + label, label {
+    color: red !important;
+}
+
+ /* label focus color */
+.input-field input + label {
+    color: purple !important;
+}
+
+/* label underline focus color */
+.input-field input:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+/* Placeholder Color */
+
+input::-webkit-input-placeholder {
+    color: green !important;
+}
+
+input:-moz-placeholder {
+    color: green !important;  
+}
+
+input::-moz-placeholder { 
+    color: green !important;  
+}
+
+input:-ms-input-placeholder {  
+    color: green !important;  
+}
+
+textarea::-webkit-input-placeholder {
+    color: green !important;
+}
+
+textarea:-moz-placeholder {
+    color: green !important;  
+}
+
+textarea::-moz-placeholder { 
+    color: green !important;  
+}
+
+textarea:-ms-input-placeholder {  
+    color: green !important;  
+}
+
+footer{
+    background-color: #ff9800 !important;
+}
+
+#social_links li{
+    margin-top: 20px !important;
+}
+
+.fb-like{
+    margin-left: 100px;
 }

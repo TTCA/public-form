@@ -95,12 +95,11 @@ $(document).ready(function () {
 
         if (error == "The form has the following errors: \n") {
             // alert("Success");
-            $("#detailsForm").submit();
+            $("#detailsForm")[0].submit();
         }
         else {
             alert(error);
         }
-        $("#detailsForm")[0].submit();
     }
 
 });

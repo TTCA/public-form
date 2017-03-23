@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Slabo+13px" rel="stylesheet">
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
@@ -16,11 +20,36 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta property="og:url" content="http://athena.nitc.ac.in/azharullahshariff_b130727cs/ttca/form/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Telugu Cultural Association" />
+    <meta property="og:description" content="Alumni and students details form" />
+    <meta property="og:image" content="http://athena.nitc.ac.in/azharullahshariff_b130727cs/ttca/form/images/ttca.png" />
+    <meta property="og:image:width" content="380" />
+    
+    <meta name="keywords" content="TTCA, NITC, NITC Telugu Association, NITC Telugu" />
+    <meta name="author" content="Azharullah" />
+
 </head>
 
 <body>
 
-    <h3 class="center-align red-text text-accent-4">TTCA student details</h3>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=402329396807806";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <img src="images/ttca.png" class="responsive-img hide-on-med-and-down" id="ttcalogo">
+    <img src="images/nitc.png" class="responsive-img hide-on-med-and-down" id="nitclogo">
+    <h3 style="font-family: 'Slabo 13px', serif;" class="center-align red-text text-accent-4"><span style="color: black; font-weight: bolder;">TTCA</span> Alumni - Almamater</h3>
+    <h5 style="font-family: 'Slabo 13px', serif;" class="center-align red-text text-accent-4">(The Telugu Cultural Association)</h5>
+    <hr style="max-width: 80%;">
+    <div class="fb-like" data-href="https://www.facebook.com/ttca.nitc/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+    <div class="fb-share-button" data-href="http://athena.nitc.ac.in/azharullahshariff_b130727cs/ttca/form/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fathena.nitc.ac.in%2Fazharullahshariff_b130727cs%2Fttca%2Fform%2F&amp;src=sdkpreparse">Share</a></div>
     <hr style="max-width: 80%;">
 
     <form action="" name="detailsForm" id="detailsForm" method="POST" enctype="multipart/form-data">
@@ -101,11 +130,13 @@
 
         <div class="row container">
             <p class="center-align" style="font-size: 1.1rem; color: red;">
-                Are you working or studying? &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>Are you working or studying?</span> <br> 
+                <span style="color: black; font-size: smaller;">(Current final year students who are placed can select the first option) </span><br>
+                <span style="color: black; font-size: smaller;">(Current final year students going for higher studies can select the second option) </span><br><br>
                 <input class="with-gap" name="occupation" type="radio" value="1" id="working" checked />
-                <label for="working">Working</label> &nbsp;&nbsp;
+                <label for="working">Working / Placed</label> &nbsp;&nbsp;&nbsp;&nbsp;
                 <input class="with-gap" name="occupation" type="radio" value="2" id="studying" />
-                <label for="studying">Studying</label> &nbsp;&nbsp;
+                <label for="studying">Studying</label> &nbsp;&nbsp;&nbsp;&nbsp;
                 <input class="with-gap" name="occupation" type="radio" value="3" id="nitcstudent" />
                 <label for="nitcstudent">Currently a student of NITC</label>
             </p>
@@ -243,6 +274,36 @@
         }
         
     ?>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="green-text">TTCA, NIT Calicut</h5>
+                <p class="grey-text text-lighten-4">For any technical queries, contact:</p>
+                <p style="color: #004d40; font-size: 130%;">Azharullah: <span style="color: black">8137905656</span> </p>
+                <p class="grey-text text-lighten-4">For all other queries, contact:</p>
+                <p style="color: #004d40; font-size: 130%;">Revanth Thangella: <span style="color: black">9037489481</span> </p>
+                <p style="color: #004d40; font-size: 130%;">Mail Id: &lt;<a style="color: black;" href="mailto:nitcttca@gmail.com"> nitcttca@gmail.com </a>&gt;</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="green-text">Other Links</h5>
+                <ul id="social_links">
+                    <li><a class="black-text text-lighten-3" target="_blank" href="https://www.facebook.com/ttca.nitc/"><img style="vertical-align:middle;" src="images/FB.png" height="40px" width="40px"> &nbsp;&nbsp; Facebook</a></li>
+                    <li><a class="black-text text-lighten-3" target="_blank" href="https://www.instagram.com/ttca.nitc/"><img style="vertical-align:middle;" src="images/instagram.png" height="40px" width="40px"> &nbsp;&nbsp; Instagram</a></li>
+                    <!--<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>-->
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align" style="color: black;">
+            © 2017 TTCA, NIT Calicut
+            <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+            </div>
+        </div>
+        </footer>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
